@@ -1,0 +1,36 @@
+dic 29, 2019 12:53:15 PM com.era.logger.LoggerUtility logInfo
+INFORMACIÓN: Logger: Hibernate: Getting instance repository manager
+dic 29, 2019 12:53:15 PM com.era.logger.LoggerUtility logInfo
+INFORMACIÓN: Logger: Hibernate: Getting license repository
+dic 29, 2019 12:53:15 PM com.era.logger.LoggerUtility logInfo
+INFORMACIÓN: Logger: Hibernate: Getting license
+dic 29, 2019 12:53:15 PM com.era.logger.LoggerUtility logInfo
+INFORMACIÓN: Logger: Creating SessionFactory
+dic 29, 2019 12:53:16 PM com.era.logger.LoggerUtility logInfo
+INFORMACIÓN: Logger: Adding annotated class class com.era.models.Company
+dic 29, 2019 12:53:16 PM com.era.logger.LoggerUtility logInfo
+INFORMACIÓN: Logger: Adding annotated class class com.era.models.License
+dic 29, 2019 12:53:16 PM com.era.logger.LoggerUtility logInfo
+INFORMACIÓN: Logger: Adding annotated class class com.era.models.PushNotification
+dic 29, 2019 12:53:16 PM com.era.logger.LoggerUtility logInfo
+INFORMACIÓN: Logger: Adding annotated class class com.era.models.BasDats
+dic 29, 2019 12:53:16 PM com.era.logger.LoggerUtility logInfo
+INFORMACIÓN: Logger: Initial SessionFactory creation failed.org.hibernate.HibernateException: /hibernate.cfg.xml not found
+dic 29, 2019 12:53:16 PM com.era.logger.LoggerUtility logInfo
+INFORMACIÓN: Logger: Hibernate: Getting instance repository manager
+dic 29, 2019 12:53:16 PM com.era.logger.LoggerUtility logInfo
+INFORMACIÓN: Logger: Hibernate: Getting license repository
+dic 29, 2019 12:53:17 PM com.era.logger.LoggerUtility logInfo
+INFORMACIÓN: Logger: Hibernate: Getting license
+dic 29, 2019 12:53:17 PM com.era.logger.LoggerUtility logInfo
+INFORMACIÓN: Logger: Hibernate: Getting instance repository manager
+dic 29, 2019 12:53:17 PM com.era.logger.LoggerUtility logInfo
+INFORMACIÓN: Logger: Hibernate: Getting license repository
+dic 29, 2019 12:53:17 PM com.era.logger.LoggerUtility logInfo
+INFORMACIÓN: Logger: Hibernate: Getting license
+dic 29, 2019 12:53:17 PM com.era.logger.LoggerUtility logInfo
+INFORMACIÓN: Logger: Hibernate: Getting instance repository manager
+dic 29, 2019 12:53:17 PM com.era.logger.LoggerUtility logInfo
+INFORMACIÓN: Logger: Hibernate: Getting license repository
+dic 29, 2019 12:53:17 PM com.era.logger.LoggerUtility logInfo
+INFORMACIÓN: Logger: Hibernate: Getting license
