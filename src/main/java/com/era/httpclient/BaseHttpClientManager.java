@@ -12,7 +12,7 @@ import com.era.httpclient.subscriber.HttpClientErrorSubscriberInterface;
 import com.era.httpclient.subscriber.HttpClientSuccessSubscriberInterface;
 import com.era.logger.LoggerUtility;
 import com.era.models.License;
-import com.era.repositories.RepositoryManager;
+import com.era.repositories.RepositoryFactory;
 import com.era.utilities.SystemMotherBoardNumber;
 import com.fasterxml.jackson.annotation.JsonAutoDetect.Visibility;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
@@ -91,7 +91,7 @@ public class BaseHttpClientManager {
         
         //Set the user and password
         if(BaseRequestModel.getUser()==null){
-            final License License = RepositoryManager.getInstance().getLicenseRepository().getLicense();
+            final License License = RepositoryFactory.getInstance().getLicenseRepository().getLicense();
             if(License!=null){
                 BaseRequestModel.setUser(License.getUser());
                 BaseRequestModel.setPassword(License.getPassword());
