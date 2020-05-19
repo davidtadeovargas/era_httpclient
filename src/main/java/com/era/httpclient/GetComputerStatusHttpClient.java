@@ -18,7 +18,7 @@ import org.apache.http.client.methods.CloseableHttpResponse;
  *
  * @author PC
  */
- public class GetComputerStatusHttpClient extends BaseHttpClient{
+ public class GetComputerStatusHttpClient extends BaseHttpClient {
     
     private GetComputerStatusSubscriberInteface GetComputerStatusSubscriberInteface;
   
