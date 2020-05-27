@@ -91,7 +91,7 @@ public class BaseHttpClientManager {
         
         //Set the user and password
         if(BaseRequestModel.getUser()==null){
-            final License License = RepositoryFactory.getInstance().getLicenseRepository().getLicense();
+            final License License = RepositoryFactory.getInstance().getLicensesRepository().getLicense();
             if(License!=null){
                 BaseRequestModel.setUser(License.getUser());
                 BaseRequestModel.setPassword(License.getPassword());
