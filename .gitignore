@@ -1,2 +1,15 @@
 
 *.class
+target/classes/com/era/httpclient/DeleteCompanyHttpClient.class
+target/classes/com/era/httpclient/GetComputerStatusHttpClient.class
+target/classes/com/era/httpclient/LoginLocalHttpClient.class
+target/classes/com/era/httpclient/subscriber/ErrorCodeSubscriberInterface.class
+target/classes/com/era/httpclient/subscriber/GetComputerStatusSubscriberInteface.class
+target/classes/com/era/httpclient/subscriber/HttpClientErrorSubscriberInterface.class
+target/classes/com/era/httpclient/subscriber/HttpClientSuccessSubscriberInterface.class
+target/classes/com/era/httpclient/subscriber/LoginSubscriberInterface.class
+target/classes/com/era/httpclient/UpdateCompanyHttpClient.class
+target/test-classes/GetComputerStatusHttpClientJUnitTest.class
+target/test-classes/LoginLocalHttpClientJUnitTest$1.class
+target/test-classes/LoginLocalHttpClientJUnitTest.class
+target/test-classes/UpdateCompanyHttpClientJUnitTest.class
