@@ -13,3 +13,5 @@ target/test-classes/GetComputerStatusHttpClientJUnitTest.class
 target/test-classes/LoginLocalHttpClientJUnitTest$1.class
 target/test-classes/LoginLocalHttpClientJUnitTest.class
 target/test-classes/UpdateCompanyHttpClientJUnitTest.class
+target/classes/.netbeans_automatic_build
+target/test-classes/.netbeans_automatic_build
