@@ -9,6 +9,7 @@ import com.era.datamodels.ComputerLicenseDataModel;
 import com.era.httpclient.requests.GetComputerStatusRequestModel;
 import com.era.httpclient.responses.GetComputerStatusResponseRequestModel;
 import com.era.httpclient.subscriber.GetComputerStatusSubscriberInteface;
+import com.era.logger.LoggerUtility;
 import com.era.utilities.BaseUtility;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.http.HttpEntity;
@@ -55,6 +56,9 @@ import org.apache.http.client.methods.CloseableHttpResponse;
         //Create the base request model
         final GetComputerStatusRequestModel GetComputerStatusRequestModel = new GetComputerStatusRequestModel();                
         GetComputerStatusRequestModel.setName(computerName);
+        
+        LoggerUtility.getSingleton().logInfo(GetComputerStatusHttpClient.class, "GetComputerStatusHttpClient: Login with user " + user);
+        LoggerUtility.getSingleton().logInfo(GetComputerStatusHttpClient.class, "GetComputerStatusHttpClient: Login with password " + password);
         
         //Set user name and password
         GetComputerStatusRequestModel.setUser(user);

@@ -15,3 +15,4 @@ target/test-classes/LoginLocalHttpClientJUnitTest.class
 target/test-classes/UpdateCompanyHttpClientJUnitTest.class
 target/classes/.netbeans_automatic_build
 target/test-classes/.netbeans_automatic_build
+target/classes/com/era/httpclient/GetComputerStatusHttpClient.class
