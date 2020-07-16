@@ -64,21 +64,25 @@
             <groupId>${project.groupId}</groupId>
             <artifactId>era_logger</artifactId>
             <version>${project.version}</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>era_repositories</artifactId>
             <version>${project.version}</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>era_models</artifactId>
             <version>${project.version}</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>era_utilities</artifactId>
             <version>${project.version}</version>
+            <scope>provided</scope>            
         </dependency>
     </dependencies>
     
